@@ -78,9 +78,9 @@ body {
 #details-container {
     width: 100%;
     height: auto;
-    min-height: 600px;
+    height: auto;
     display: flex;
-    /* overflow: hidden; */
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     /* border: 2px rgb(255, 255, 255) solid; */
@@ -136,7 +136,7 @@ body {
 
 #detail-image {
     margin-left: 50px;
-    height: 90vh;
+    height: 600px;
     width: 35%;
     overflow: hidden;
 
@@ -155,7 +155,7 @@ body {
     width: 200px;
     /* display: flex; */
     left: 45%;
-    top: 145%;
+    top: 840px;
     /* border: 2px aliceblue solid; */
 }
 
@@ -330,15 +330,15 @@ body {
 
 .brand-image {
     margin: 10px;
-    height: 25vh;
-    width: 25vh;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     border: 1px solid white;
 }
 
 .brand-image img {
-    height: 25vh;
-    width: 25vh;
+    height:150px;
+    width: 150px;
     object-fit: contain;
     transform: scale(0.9);
 }
