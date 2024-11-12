@@ -1,3 +1,5 @@
+
+
 #navbar-container {
     height: 50px;
     width: 100%;
@@ -106,6 +108,7 @@ body {
     color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 110%;
     cursor: pointer;
 }
@@ -139,11 +142,9 @@ body {
     height: 600px;
     width: 35%;
     overflow: hidden;
-
 }
 
 #detail-image img {
-
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -344,13 +345,13 @@ body {
 }
 
 #locateUs-container {
-
+    margin-bottom: 50px;
     align-items: center;
     margin-top: 20px;
     width: 100%;
     height: auto;
     min-height: 300px;
-    /* border: 2px solid aliceblue; */
+    border: 2px solid aliceblue;
     padding: 2px;
 }
 
@@ -371,7 +372,7 @@ body {
 }
 
 #contactus-form {
-    height: 500px;
+    height: auto;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -380,7 +381,7 @@ body {
     justify-content: baseline;
     color: #ffffff;
     /* border: 1px solid white; */
-    overflow: hidden;
+    overflow: visible;
 }
 
 #contact-form {
@@ -391,7 +392,8 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    /* margin-top: 5px; */
+   
 }
 
 #contact-form input {
@@ -425,4 +427,152 @@ body {
     transition: 0.5s;
     background-color: rgb(255, 255, 255);
     color: black;
+}
+#footer-container{
+    width: 100%;
+    height: 500px;
+    border: #ffffff 1px solid ;
+    color: #ffffff;
+}
+
+
+
+
+@media only screen and (max-width: 450px) and (min-width:100px){
+    #details-container {
+        width: 100%;
+        height: auto;
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px rgb(255, 255, 255) solid; */
+    }
+    
+    #details-words {
+        height: auto;
+        width: 50%;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px rgb(255, 255, 255) solid; */
+    }
+    
+    #callback-btn {
+        height: 80px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        width: 60%;
+        border-radius: 100px 100px 100px 100px;
+        background-color: antiquewhite;
+        display: flex;
+        color: rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 110%;
+        cursor: pointer;
+    }
+    
+    
+    #callback-btn:hover {
+        color: aliceblue;
+        transition: 0.7s;
+        box-shadow: 0 0 20px rgb(249, 245, 245);
+        background-color: rgb(59, 6, 139);
+        border-radius: 100px 100px 100px 100px;
+    }
+    
+    #details-words h2 {
+        color: rgb(186, 239, 12);
+        font-size: 40px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #details-words p {
+        /* border: 1px solid red; */
+        z-index: 10;
+        color: rgba(232, 10, 65, 0.83) ;
+        font-size: 20px;
+        font-weight: 500;
+    
+    }
+    #detail-image {
+       margin: 0 0 0 0;
+        /* border: 5px solid red; */
+        width: 50% ;
+        height: 500px;
+        overflow: hidden;
+        /* border: 2px solid red; */
+    }
+    
+    #detail-image img {
+        height: 100%;
+        width: 100%;
+        transform:none;
+        border-top-right-radius: 0;
+        object-fit: cover;
+    }
+    
+    #detail-book-btn {
+        position: absolute;
+        height: 250px;
+        width: 200px;
+        /* display: flex; */
+        left: 48%;
+        top: 1200px;
+        /* border: 2px aliceblue solid; */
+    }
+    
+    #start-at-icon {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        bottom: 0;
+        background-color: rgb(74, 25, 165);
+        border-radius: 50%;
+    
+    }
+    
+    #start-at-icon h3 {
+        font-size: 30px;
+        color: rgb(252, 252, 255);
+    
+    }
+    
+    #start-at-icon p {
+        margin-top: -20px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    #laptop-service-icon {
+        height: 130px;
+        width: 130px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        border-radius: 50%;
+        background-color: rgb(10, 31, 55);
+    }
+    
+    #laptop-service-icon h1 {
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+
 }
