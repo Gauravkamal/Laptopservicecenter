@@ -33,3 +33,16 @@ function typeJs() {
 setInterval(() => {
     typeJs();
 }, 100);
+
+
+
+function updateViewportSize() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    document.getElementById('width').textContent = width;
+    document.getElementById('height').textContent = height;
+}
+
+// Update viewport size on page load and window resize
+window.addEventListener('load', updateViewportSize);
+window.addEventListener('resize', updateViewportSize);
