@@ -10,7 +10,7 @@ let typeJsText = document.querySelector(".typeJsText");
 let textArray = typeJsText.dataset.typetext.split("");
 let counter = -1;
 let s = 0
-let text = ["fix Keyboards", "Upgrade SSDs", "Upgrade RAMs", "Fix Screens", "Fix Motherboards", "Replace Chargers"]
+let text = ["fix Keyboards  ", "Upgrade SSDs  ", "Upgrade RAMs  ", "Fix Screens  ", "Fix Motherboards  ", "Replace Chargers  "]
 
 typeJsText.innerHTML = "";
 
@@ -46,3 +46,7 @@ function updateViewportSize() {
 // Update viewport size on page load and window resize
 window.addEventListener('load', updateViewportSize);
 window.addEventListener('resize', updateViewportSize);
+
+
+
+// for Query Submission
